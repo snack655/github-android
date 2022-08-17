@@ -1,4 +1,8 @@
 package kr.dev.cmj.gitdroid
 
-class GitDroidApplication {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class GitDroidApplication : Application() {
 }
